@@ -4,6 +4,34 @@
 		"selected_items":
 		[
 			[
+				"obj",
+				"obj2"
+			],
+			[
+				"tan",
+				"tank2"
+			],
+			[
+				"ta",
+				"tank1"
+			],
+			[
+				"gro",
+				"group"
+			],
+			[
+				"grou",
+				"group"
+			],
+			[
+				"gm",
+				"Game"
+			],
+			[
+				"M",
+				"MainMenu"
+			],
+			[
 				"fun",
 				"function"
 			]
@@ -11,6 +39,94 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "/H/webroot/phaser-2.5.0/resources/tutorials/02 Making your first game/part9.html",
+			"settings":
+			{
+				"buffer_size": 4319,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.bak.html",
+			"settings":
+			{
+				"buffer_size": 1143,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 881,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/Boot.js",
+			"settings":
+			{
+				"buffer_size": 560,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/Preloader.js",
+			"settings":
+			{
+				"buffer_size": 1548,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/MainMenu.js",
+			"settings":
+			{
+				"buffer_size": 340,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/Game.js",
+			"settings":
+			{
+				"buffer_size": 1607,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/TankManager.js",
+			"settings":
+			{
+				"buffer_size": 3084,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/tank/Base.js",
+			"settings":
+			{
+				"buffer_size": 2483,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/tank/Player.js",
+			"settings":
+			{
+				"buffer_size": 1264,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/tank/Enemy.js",
+			"settings":
+			{
+				"buffer_size": 759,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -20,10 +136,10 @@
 		[
 			[
 				"Package Control: ",
-				"Package Control: List Packages"
+				"Package Control: Install Package"
 			]
 		],
-		"width": 464.0
+		"width": 400.0
 	},
 	"console":
 	{
@@ -40,6 +156,23 @@
 	},
 	"file_history":
 	[
+		"/H/webroot/xtank/src/tank/Base.js",
+		"/H/webroot/xtank/src/tanks/TankBase.js",
+		"/H/webroot/xtank/src/Tank/TankBase.js",
+		"/H/webroot/xtank/src.bak/Boot.js",
+		"/H/webroot/xtank/src.bak/Preloader.js",
+		"/H/webroot/xtank/src.bak/MainMenu.js",
+		"/H/webroot/xtank/src.bak/Game.js",
+		"/H/webroot/xtank/src/Preloader.js",
+		"/H/webroot/xtank/src/Boot.js",
+		"/H/webroot/xtank/stylesheets/style.less",
+		"/H/webroot/xtank/index.html",
+		"/H/webroot/phaser-2.5.0/resources/Project Templates/Webpack/index.html",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 2/Packages/Less2Css/less2css.sublime-settings",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 2/Packages/Less2Css/README.md",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 2/Packages/LESS/README.md",
+		"/H/webroot/xtank/xtank.sublime-workspace",
+		"/H/webroot/xtank/xtank.sublime-project",
 		"/E/webroot/zx250client-v3/package.json",
 		"/F/电影收藏/霜花店.BD1280超清韩语中字.mp4"
 	],
@@ -76,8 +209,306 @@
 	"groups":
 	[
 		{
+			"selected": 7,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "/H/webroot/phaser-2.5.0/resources/tutorials/02 Making your first game/part9.html",
+					"settings":
+					{
+						"buffer_size": 4319,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4042,
+								4042
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2540.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "index.bak.html",
+					"settings":
+					{
+						"buffer_size": 1143,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								155,
+								103
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 881,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								822,
+								822
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/Boot.js",
+					"settings":
+					{
+						"buffer_size": 560,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								47,
+								72
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/Preloader.js",
+					"settings":
+					{
+						"buffer_size": 1548,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								671,
+								678
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "src/MainMenu.js",
+					"settings":
+					{
+						"buffer_size": 340,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								54,
+								54
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "src/Game.js",
+					"settings":
+					{
+						"buffer_size": 1607,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								690,
+								625
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 123.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "src/TankManager.js",
+					"settings":
+					{
+						"buffer_size": 3084,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1012,
+								1012
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 360.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "src/tank/Base.js",
+					"settings":
+					{
+						"buffer_size": 2483,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1058,
+								1068
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 479.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "src/tank/Player.js",
+					"settings":
+					{
+						"buffer_size": 1264,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								780,
+								780
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 120.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "src/tank/Enemy.js",
+					"settings":
+					{
+						"buffer_size": 759,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								667,
+								667
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 3.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -133,7 +564,7 @@
 		],
 		"width": 0.0
 	},
-	"show_minimap": true,
+	"show_minimap": false,
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,

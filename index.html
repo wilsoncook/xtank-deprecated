@@ -2,12 +2,28 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>The legend tank game</title>
-	<script src="vendors/phaser/phaser.min.js"></script>
+	<title>XTANK</title>
+	<script src="vendors/phaser/phaser.js"></script>
+	<script src="src/Boot.js"></script>
+	<script src="src/Preloader.js"></script>
+	<script src="src/MainMenu.js"></script>
+	<script src="src/tank/Base.js"></script>
+	<script src="src/tank/Player.js"></script>
+	<script src="src/tank/Enemy.js"></script>
+	<script src="src/TankManager.js"></script>
+	<script src="src/Game.js"></script>
 </head>
 <body>
-<script>
-	var game = new Phaser.Game(800, 600, Phaser.AUTO, '', {  });
-</script>
+	<div id="gameContainer"></div>
+	<script type="text/javascript">
+	window.onload = function () {
+		var game = new Phaser.Game(800, 600, Phaser.CANVAS, 'gameContainer');
+		game.state.add('Boot', MyGame.Boot);
+		game.state.add('Preloader', MyGame.Preloader);
+		game.state.add('MainMenu', MyGame.MainMenu);
+		game.state.add('Game', MyGame.Game);
+		game.state.start('Boot');
+	};
+	</script>
 </body>
 </html>
